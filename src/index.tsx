@@ -3,10 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import SignUp from './components/SignUp';
-import Login from './components/Login';
-import Recover from './components/Recover';
-import Confirm from './components/Confirm';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
