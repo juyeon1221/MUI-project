@@ -6,7 +6,6 @@ import Login from './components/Login';
 import Recover from './components/Recover';
 import Confirm from './components/Confirm';
 import Home from './components/Home';
-import Dashboard from './pages/Dashboard/Dashboard';
 
   function App() {
   return (
@@ -19,7 +18,6 @@ import Dashboard from './pages/Dashboard/Dashboard';
           <Route path="/recover" element={<Recover />} />
           <Route path="/confirm" element={<Confirm />} /> 
           <Route path="/home" element={<Home />} />
-          <Route path="/dashboard" element={<Dashboard />} /> 
         </Routes>
       </BrowserRouter>
     </>
